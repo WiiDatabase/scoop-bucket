@@ -1,0 +1,22 @@
+{
+    "version": "1.9",
+    "description": "Downloads Wii and DS titles from Nintendo's server.",
+    "homepage": "https://wiidatabase.de/downloads/pc-tools/nus-downloader//",
+    "license": "GPL-3.0-only",
+    "url": "https://static.wiidatabase.de/NUSD-Mod.zip",
+    "hash": "7ad4dde96498a1128b4b358cdd0b01bbd421be3e917f33bd0b1971a5469cf0a0",
+    "bin": "NUS Downloader.exe",
+    "pre_install": [
+        "Remove-Item \"$dir\\scripts\" -Force -Recurse"
+    ],
+    "shortcuts": [
+        [
+            "NUS Downloader.exe",
+            "NUS Downloader"
+        ]
+    ],
+    "persist": [
+        "scripts",
+        "titles"
+    ]
+}
