@@ -1,0 +1,40 @@
+{
+    "version": "6.5.1",
+    "description": "Mod ANY Wii Using ModMii for Windows.",
+    "homepage": "http://modmii.sourceforge.net/",
+    "license": "GPL-3.0-only",
+    "url": "https://downloads.sourceforge.net/project/modmii/ModMii6.5.1.zip",
+    "hash": "sha1:f0a0ebc9e44126d3a21be50c62c3d1d8d1a3d1a7",
+    "bin": [
+        "ModMii.exe",
+        "ModMiiSkin.exe"
+    ],
+    "shortcuts": [
+        [
+            "ModMii.exe",
+            "ModMii"
+        ],
+        [
+            "ModMiiSkin.exe",
+            "ModMii Skin"
+        ]
+    ],
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\Support\\settings.bat\")) {",
+        "   Set-Content \"$dir\\Support\\settings.bat\" @('Set AUTOUPDATE=OFF', 'Set PCSAVE=Portable') -Encoding Ascii",
+        "}"
+    ],
+    "persist": [
+        "COPY_TO_SD",
+        "COPY_TO_USB",
+        "Support\\settings.bat",
+        "temp"
+    ],
+    "checkver": {
+        "url": "https://sourceforge.net/projects/modmii/rss",
+        "regex": "/ModMii([\\d.]+).zip"
+    },
+    "autoupdate": {
+        "url": "https://downloads.sourceforge.net/project/modmii/ModMii$version.zip"
+    }
+}
