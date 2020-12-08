@@ -1,0 +1,26 @@
+{
+    "version": "3.03a.r8245",
+    "description": "Wiimms ISO Tools is a set of command line tools to manipulate Wii and GameCube ISO images and WBFS containers.",
+    "homepage": "https://wit.wiimm.de/",
+    "license": "GPL-2.0-only",
+    "url": "https://wit.wiimm.de/download/wit-v3.03a-r8245-cygwin.zip",
+    "hash": "44393cb591d9a6541bdc9a59d2769558e8ef395e1f859d82f14a4f561151f424",
+    "extract_dir": "wit-v3.03a-r8245-cygwin\\bin",
+    "bin": [
+        "wit.exe",
+        "wwt.exe",
+        "wdf.exe",
+        "wdf-cat.exe",
+        "wdf-dump.exe"
+    ],
+    "post_install": "Remove-Item \"$dir\\wit-v*\" -Force -Recurse",
+    "checkver": {
+        "url": "https://wit.wiimm.de/changelog.html#r8245",
+        "regex": "wit v(?<short>[\\da-z.]+) (?<revision>r[\\d]+)",
+        "replace": "${short}.${revision}"
+    },
+    "autoupdate": {
+        "url": "https://wit.wiimm.de/download/wit-v$matchShort-$matchRevision-cygwin.zip",
+        "extract_dir": "wit-v$matchShort-$matchRevision-cygwin\\bin"
+    }
+}
