@@ -1,0 +1,22 @@
+{
+    "version": "3.21",
+    "description": "Super Mario World Level Editor",
+    "homepage": "http://fusoya.eludevisibility.org/lm/index.html",
+    "license": "Freeware",
+    "url": "http://fusoya.eludevisibility.org/lm/download/lm321.zip",
+    "hash": "017c0417e6c486e9571bb5695f553263ad429fff5cb640851b3640099db52171",
+    "bin": "Lunar Magic.exe",
+    "shortcuts": [
+        [
+            "Lunar Magic.exe",
+            "Lunar Magic"
+        ]
+    ],
+    "checkver": {
+        "url": "http://fusoya.eludevisibility.org/lm/program.html",
+        "regex": "Version: ([\\d\\.]+)"
+    },
+    "autoupdate": {
+        "url": "http://fusoya.eludevisibility.org/lm/download/lm$cleanVersion.zip"
+    }
+}
