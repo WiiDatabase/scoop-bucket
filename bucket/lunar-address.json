@@ -1,0 +1,19 @@
+{
+    "version": "1.04",
+    "description": "Lunar Address is a SNES address converter.",
+    "homepage": "http://fusoya.eludevisibility.org/la/index.html",
+    "license": "Freeware",
+    "url": "http://fusoya.eludevisibility.org/la/download/la104.zip",
+    "hash": "f984d5ce07e9f4b53bd672b4dac867a9261d3abf7fe99a923d8ebd91b59008f6",
+    "bin": "Lunar Address.exe",
+    "shortcuts": [
+        [
+            "Lunar Address.exe",
+            "Lunar Address"
+        ]
+    ],
+    "checkver": "Version: ([\\d\\.]+)",
+    "autoupdate": {
+        "url": "http://fusoya.eludevisibility.org/la/download/la$cleanVersion.zip"
+    }
+}
