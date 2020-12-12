@@ -1,0 +1,13 @@
+{
+    "version": "0.7",
+    "description": "Converts installable Wii WAD packages to backup WAD packages.",
+    "homepage": "https://github.com/DarkMatterCore/wad2bin",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/DarkMatterCore/wad2bin/releases/download/v0.7/wad2bin.exe",
+    "hash": "f9909062f15edac99ba3c09d5f6f5b5a5996ae07c11f03ddb1884f74233dc6fa",
+    "bin": "wad2bin.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/DarkMatterCore/wad2bin/releases/download/v$version/wad2bin.exe"
+    }
+}
