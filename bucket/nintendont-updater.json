@@ -1,0 +1,19 @@
+{
+    "version": "1.2.1.2",
+    "description": "Updater for Nintendont.",
+    "homepage": "https://github.com/WiiDatabase/Nintendont-Updater",
+    "license": " MPL-2.0",
+    "url": "https://github.com/WiiDatabase/Nintendont-Updater/releases/download/v1.2.1.2/Nintendont-Updater.zip",
+    "hash": "935ff93ed696367217f2d0e9b9e16961abb4adb0c005405478b67f9b58844e42",
+    "bin": "Nintendont-Updater.exe",
+    "shortcuts": [
+        [
+            "Nintendont-Updater.exe",
+            "Nintendont-Updater"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/WiiDatabase/Nintendont-Updater/releases/download/v$version/Nintendont-Updater.zip"
+    }
+}
