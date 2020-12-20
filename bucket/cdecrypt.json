@@ -1,0 +1,13 @@
+{
+    "version": "4.4",
+    "description": "A utility that decrypts Wii U NUS content files.",
+    "homepage": "https://github.com/VitaSmith/cdecrypt",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/VitaSmith/cdecrypt/releases/download/v4.4/cdecrypt.zip",
+    "hash": "ab67a9a4be8dc6f897e7ebcd84ec01a4344fbefe54253e471534de2ecc44a462",
+    "bin": "cdecrypt.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/VitaSmith/cdecrypt/releases/download/v$version/cdecrypt.zip"
+    }
+}
