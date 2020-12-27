@@ -1,10 +1,10 @@
 {
-    "version": "BT13",
+    "version": "BT15",
     "description": "Inject games into various Wii U VCs.",
     "homepage": "https://github.com/stuff-by-3-random-dudes/UWUVCI-AIO-WPF",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/stuff-by-3-random-dudes/UWUVCI-AIO-WPF/releases/download/BT13/UWUVCI.AIO.BT13.Installer.exe",
-    "hash": "4b1563b491d5df097edcaca825ad4d8ba5f2e4363f36e0a2ed8c53d4232d8a2b",
+    "url": "https://github.com/stuff-by-3-random-dudes/UWUVCI-AIO-WPF/releases/download/BT15/UWUVCI.AIO.BT15.Installer.exe",
+    "hash": "4d6189c1bd0371c331db433c582baf3d4ff2de814cc467354df25dc4f81c4989",
     "innosetup": true,
     "bin": [
         "UWUVCI AIO.exe",
