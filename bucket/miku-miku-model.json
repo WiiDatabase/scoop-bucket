@@ -1,0 +1,27 @@
+{
+    "version": "2.0.3",
+    "description": "File editor for Hatsune Miku: Project DIVA games.",
+    "homepage": "https://github.com/blueskythlikesclouds/MikuMikuLibrary",
+    "license": "MIT",
+    "url": "https://github.com/blueskythlikesclouds/MikuMikuLibrary/releases/download/v2.0.3/MikuMikuModel.7z",
+    "hash": "ebc2f77dd22f91639c142cddcb60a4685cb789f90872df1966731fea39fb1973",
+    "bin": "MikuMikuModel.exe",
+    "shortcuts": [
+        [
+            "MikuMikuModel.exe",
+            "Miku Miku Model"
+        ]
+    ],
+    "persist": [
+        "Resources\\ConfigurationList.xml",
+        "Resources\\ValueCache.txt"
+    ],
+    "pre_install": [
+        "if(!(Test-Path \"$persist_dir\\Resources\\ConfigurationList.xml\")) { New-Item \"$dir\\Resources\\ConfigurationList.xml\" | Out-Null }",
+        "if(!(Test-Path \"$persist_dir\\Resources\\ValueCache.txt\")) { Set-Content \"$dir\\Resources\\ValueCache.txt\" 'AutoCheckUpdates, System.Boolean, False' -Encoding ASCII }"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/blueskythlikesclouds/MikuMikuLibrary/releases/download/v$version/MikuMikuModel.7z"
+    }
+}
