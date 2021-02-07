@@ -1,10 +1,10 @@
 {
-    "version": "0.36",
+    "version": "0.36b",
     "description": "BrawlCrate is a BrawlBox fork with a variety of features aiming to improve ease of modding for Super Smash Bros. Brawl.",
     "homepage": "https://github.com/soopercool101/BrawlCrate",
     "license": "MIT",
-    "url": "https://github.com/soopercool101/BrawlCrate/releases/download/v0.36/BrawlCrate.v0.36.x86.exe#/dl.7z",
-    "hash": "ec75e90b820a66d7944b15e0c979009d1553a8a1ed08f79371e0e79f166ba2fd",
+    "url": "https://github.com/soopercool101/BrawlCrate/releases/download/v0.36b/BrawlCrate.v0.36b.x86.exe#/dl.7z",
+    "hash": "4e3541b02fae47f6e8ef720b7199d460e952252033feff748e5e99eac37ccb60",
     "pre_install": [
         "Remove-Item \"$dir\\Updater.exe\" -Force -Recurse",
         "if (Test-Path \"$persist_dir\\CustomLists\") { Remove-Item \"$dir\\CustomLists\" -Force -Recurse }",
