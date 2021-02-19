@@ -1,10 +1,10 @@
 {
-    "version": "2.0",
+    "version": "2.1b2",
     "description": "Experimental script to automate the process of a manual title install for Nintendo 3DS.",
     "homepage": "https://github.com/ihaveamac/custom-install",
     "license": "MIT",
-    "url": "https://github.com/ihaveamac/custom-install/releases/download/2.0/custom-install-standalone.zip",
-    "hash": "6166fb783de75a3fd43d6fcf75d493a369c43dd97dd91eb6807aaec6d9fe2da0",
+    "url": "https://github.com/ihaveamac/custom-install/releases/download/v2.1b2/custom-install-standalone.zip",
+    "hash": "87576dab8cf806e4669c8bfde84ebed85faa59f4bf98d71d807fe3568c7a3ceb",
     "extract_dir": "custom-install-standalone",
     "bin": "ci-gui.exe",
     "shortcuts": [
@@ -13,8 +13,11 @@
             "custom-install GUI"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/ihaveamac/custom-install/releases/latest",
+        "regex": "custom-install ([\\d\\.A-z]+)"
+    },
     "autoupdate": {
-        "url": "https://github.com/ihaveamac/custom-install/releases/download/$version/custom-install-standalone.zip"
+        "url": "https://github.com/ihaveamac/custom-install/releases/download/v$version/custom-install-standalone.zip"
     }
 }
