@@ -14,8 +14,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/ihaveamac/custom-install/releases/latest",
-        "regex": "custom-install ([\\d\\.A-z]+)"
+        "url": "https://github.com/ihaveamac/custom-install/tags",
+        "regex": "custom-install/releases/tag/v([\\d\\.A-z]+)"
     },
     "autoupdate": {
         "url": "https://github.com/ihaveamac/custom-install/releases/download/v$version/custom-install-standalone.zip"
