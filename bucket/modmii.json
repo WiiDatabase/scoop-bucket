@@ -1,10 +1,10 @@
 {
-    "version": "6.6.0",
+    "version": "6.6.1",
     "description": "Mod ANY Wii Using ModMii for Windows.",
     "homepage": "http://modmii.sourceforge.net/",
     "license": "GPL-3.0-only",
-    "url": "https://downloads.sourceforge.net/project/modmii/ModMii6.6.0.zip",
-    "hash": "sha1:076fd8be588bb99b47388ffc29c8d57faf438e45",
+    "url": "https://downloads.sourceforge.net/project/modmii/ModMii6.6.1.zip",
+    "hash": "sha1:ca4683b7017d7f86527b1ac15be4f8a28600e77e",
     "bin": [
         "ModMii.exe",
         "ModMiiSkin.exe"
