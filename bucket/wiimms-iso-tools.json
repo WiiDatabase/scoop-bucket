@@ -3,9 +3,18 @@
     "description": "Wiimms ISO Tools is a set of command line tools to manipulate Wii and GameCube ISO images and WBFS containers.",
     "homepage": "https://wit.wiimm.de/",
     "license": "GPL-2.0-only",
-    "url": "https://wit.wiimm.de/download/wit-v3.04a-r8427-cygwin.zip",
-    "hash": "a12b074252ec2e8e5f2f0d831ffedc5018b596a3768fccdb4414ac0df4285903",
-    "extract_dir": "wit-v3.04a-r8427-cygwin\\bin",
+    "architecture": {
+        "64bit": {
+            "url": "https://wit.wiimm.de/download/wit-v3.04a-r8427-cygwin64.zip",
+            "hash": "48999fda3c60c49f39eedeaeaad1181ee71560e05e432bc7248849841b0bb9ac",
+            "extract_dir": "wit-v3.04a-r8427-cygwin64\\bin"
+        },
+        "32bit": {
+            "url": "https://wit.wiimm.de/download/wit-v3.04a-r8427-cygwin32.zip",
+            "hash": "770897c6e73a38be13f3248a3abd949d1730ac7b1490fb3b724f4ddcc6241cc9",
+            "extract_dir": "wit-v3.04a-r8427-cygwin32\\bin"
+        }
+    },
     "bin": [
         "wit.exe",
         "wwt.exe",
@@ -20,7 +29,15 @@
         "replace": "${short}.${revision}"
     },
     "autoupdate": {
-        "url": "https://wit.wiimm.de/download/wit-v$matchShort-$matchRevision-cygwin.zip",
-        "extract_dir": "wit-v$matchShort-$matchRevision-cygwin\\bin"
+        "architecture": {
+            "64bit": {
+                "url": "https://wit.wiimm.de/download/wit-v$matchShort-$matchRevision-cygwin64.zip",
+                "extract_dir": "wit-v$matchShort-$matchRevision-cygwin64\\bin"
+            },
+            "32bit": {
+                "url": "https://wit.wiimm.de/download/wit-v$matchShort-$matchRevision-cygwin32.zip",
+                "extract_dir": "wit-v$matchShort-$matchRevision-cygwin32\\bin"
+            }
+        }
     }
 }
