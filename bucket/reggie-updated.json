@@ -1,16 +1,16 @@
 {
-    "version": "2021.03.21.0",
+    "version": "2021.05.18.0",
     "description": "Advanced level editor for New Super Mario Bros. Wii, created by Treeki and Tempus using Python, PyQt and Wii.py.",
     "homepage": "https://github.com/RoadrunnerWMC/Reggie-Updated",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/RoadrunnerWMC/Reggie-Updated/releases/download/2021.03.21.0/reggie-updated-2021.03.21.0-windows-64.zip",
-            "hash": "183b88f359b9120b076363ed3a2378840a92125c79d7af5eefa95b20c68583c2"
+            "url": "https://github.com/RoadrunnerWMC/Reggie-Updated/releases/download/2021.05.18.0/reggie-updated-2021.05.18.0-windows-64.zip",
+            "hash": "73adc38b3b1112f02ea745ab367e49e2462e2cde3d79eb6f76004d6ed153226f"
         },
         "32bit": {
-            "url": "https://github.com/RoadrunnerWMC/Reggie-Updated/releases/download/2021.03.21.0/reggie-updated-2021.03.21.0-windows-32.zip",
-            "hash": "e8426138d14f0a7208513d2e3c1d9e56ccdbde035ed2596215c6a1f5d784f0d9"
+            "url": "https://github.com/RoadrunnerWMC/Reggie-Updated/releases/download/2021.05.18.0/reggie-updated-2021.05.18.0-windows-32.zip",
+            "hash": "724f0536f0b4cd620a2f6a28ba1680a680dfb71e313ff25bac4a39937f1f9bf1"
         }
     },
     "bin": "reggie.exe",
