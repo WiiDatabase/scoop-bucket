@@ -1,10 +1,10 @@
 {
-    "version": "1.5.0.5",
+    "version": "2.1.0.1",
     "description": "Mod downloader, manager, updater and workspace-building tool for Super Smash Bros Ultimate and later on, other Switch games.",
     "homepage": "https://github.com/Mowjoh/Quasar",
     "license": "Unknown",
-    "url": "https://github.com/Mowjoh/Quasar/releases/download/v1.5.0.5/QuasarSetup.msi",
-    "hash": "bde83f48ab3545ba0a3816fed4011ff43ab048e89070d37ea1b177ffd93325a0",
+    "url": "https://github.com/Mowjoh/Quasar/releases/download/2.1.0/QuasarSetup.2.1.0.1.msi",
+    "hash": "ca4ea4f038c731c4145af8aba2c90ecbdb28da25959e66cc832fbca344d30f3f",
     "bin": [
         [
             "Quasar.exe",
@@ -17,8 +17,5 @@
             "Quasar"
         ]
     ],
-    "checkver": "github",
-    "autoupdate": {
-        "url": "https://github.com/Mowjoh/Quasar/releases/download/v$version/QuasarSetup.msi"
-    }
+    "checkver": "github"
 }
