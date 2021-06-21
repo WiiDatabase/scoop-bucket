@@ -1,10 +1,10 @@
 {
-    "version": "1.2.11",
+    "version": "1.2.11.1",
     "description": " Desktop (GUI & CLI) utility, to download Wii Homebrew apps from the Open Shop Channel.",
     "homepage": "https://github.com/dhtdht020/osc-dl",
     "license": " GPL-3.0-only",
-    "url": "https://github.com/dhtdht020/osc-dl/releases/download/1.2.11/oscdl-standalone.exe",
-    "hash": "0dae88c9e05c1b792ce9d846fb94c07b650e75a1f35c36ec4869d59e73ebca32",
+    "url": "https://github.com/dhtdht020/osc-dl/releases/download/1.2.11.1/oscdl-standalone.exe",
+    "hash": "c424e7b6853833171ae6010cdecf65c632143dad501442292595f76c92ea8568",
     "bin": "oscdl-standalone.exe",
     "shortcuts": [
         [
