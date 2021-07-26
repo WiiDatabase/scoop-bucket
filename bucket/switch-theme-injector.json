@@ -1,10 +1,10 @@
 {
-    "version": "4.6.1",
+    "version": "4.6.2",
     "description": "An app to create and edit custom Switch themes",
     "homepage": "https://github.com/exelix11/SwitchThemeInjector",
     "license": "GPL-2.0-only",
-    "url": "https://github.com/exelix11/SwitchThemeInjector/releases/download/v-4.6.1/Release4.6.1.7z",
-    "hash": "0a1ced431d811bdaba51e4a9aaf92704be4ae631addef8469025638614fac289",
+    "url": "https://github.com/exelix11/SwitchThemeInjector/releases/download/v-4.6.2/Release4.6.2.zip",
+    "hash": "cfb25e653a4c409ecea7ff57a747529d8f1d013a65234390b300f97be1062d18",
     "bin": "SwitchThemes.exe",
     "shortcuts": [
         [
@@ -14,9 +14,9 @@
     ],
     "checkver": {
         "url": "https://github.com/exelix11/SwitchThemeInjector/releases/latest",
-        "regex": "Release([\\d\\.]+).7z"
+        "regex": "Release([\\d\\.]+).zip"
     },
     "autoupdate": {
-        "url": "https://github.com/exelix11/SwitchThemeInjector/releases/download/v-$version/Release$version.7z"
+        "url": "https://github.com/exelix11/SwitchThemeInjector/releases/download/v-$version/Release$version.zip"
     }
 }
