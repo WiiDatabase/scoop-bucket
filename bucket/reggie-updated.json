@@ -1,16 +1,16 @@
 {
-    "version": "2021.05.18.0",
+    "version": "2021.09.11.0",
     "description": "Advanced level editor for New Super Mario Bros. Wii, created by Treeki and Tempus using Python, PyQt and Wii.py.",
     "homepage": "https://github.com/RoadrunnerWMC/Reggie-Updated",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/RoadrunnerWMC/Reggie-Updated/releases/download/2021.05.18.0/reggie-updated-2021.05.18.0-windows-64.zip",
-            "hash": "73adc38b3b1112f02ea745ab367e49e2462e2cde3d79eb6f76004d6ed153226f"
+            "url": "https://github.com/RoadrunnerWMC/Reggie-Updated/releases/download/2021.09.11.0/reggie-updated-2021.09.11.0-windows-64-bit.zip",
+            "hash": "e8663d4b5163798d575b17844e1a4cef38d3a8219df85283068f78fe15b326a5"
         },
         "32bit": {
-            "url": "https://github.com/RoadrunnerWMC/Reggie-Updated/releases/download/2021.05.18.0/reggie-updated-2021.05.18.0-windows-32.zip",
-            "hash": "724f0536f0b4cd620a2f6a28ba1680a680dfb71e313ff25bac4a39937f1f9bf1"
+            "url": "https://github.com/RoadrunnerWMC/Reggie-Updated/releases/download/2021.09.11.0/reggie-updated-2021.09.11.0-windows7-or-32-bit.zip",
+            "hash": "6014127f72fc0f3eadf124f49c82e2c62792c0d47c62675a38f45599c3f9a210"
         }
     },
     "bin": "reggie.exe",
@@ -24,10 +24,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/RoadrunnerWMC/Reggie-Updated/releases/download/$version/reggie-updated-$version-windows-64.zip"
+                "url": "https://github.com/RoadrunnerWMC/Reggie-Updated/releases/download/$version/reggie-updated-$version-windows-64-bit.zip"
             },
             "32bit": {
-                "url": "https://github.com/RoadrunnerWMC/Reggie-Updated/releases/download/$version/reggie-updated-$version-windows-32.zip"
+                "url": "https://github.com/RoadrunnerWMC/Reggie-Updated/releases/download/$version/reggie-updated-$version-windows7-or-32-bit.zip"
             }
         }
     }
