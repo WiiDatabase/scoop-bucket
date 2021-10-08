@@ -1,0 +1,21 @@
+{
+    "version": "2.4.0",
+    "description": "Tool to view Nintendo Switch file",
+    "homepage": "https://github.com/Myster-Tee/NxFileViewer",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/Myster-Tee/NxFileViewer/releases/download/2.4.0/NxFileViewer.exe",
+    "hash": "5b55a7f29a8fc14e30497acb2cdc4ec9288722d082fac4b8896569e96453c702",
+    "bin": "NxFileViewer.exe",
+    "persist": "NxFileViewer.settings.json",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\NxFileViewer.settings.json\")) { New-Item \"$dir\\NxFileViewer.settings.json\" | Out-Null }",
+    "shortcuts": [
+        [
+            "NxFileViewer.exe",
+            "NxFileViewer"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/Myster-Tee/NxFileViewer/releases/download/$version/NxFileViewer.exe"
+    }
+}
