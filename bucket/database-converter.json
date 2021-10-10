@@ -1,10 +1,10 @@
 {
-    "version": "2.0.3",
+    "version": "2.1.0",
     "description": "From Miku Miku Library: A program that allows you to convert database files to .xml or vice versa.",
     "homepage": "https://github.com/blueskythlikesclouds/MikuMikuLibrary",
     "license": "MIT",
-    "url": "https://github.com/blueskythlikesclouds/MikuMikuLibrary/releases/download/v2.0.3/DatabaseConverter.7z",
-    "hash": "4421e344b7c9d9eea8daa26f72ae876b6e01604a5b8c21802046ef1ea19faeb7",
+    "url": "https://github.com/blueskythlikesclouds/MikuMikuLibrary/releases/download/v2.1.0/DatabaseConverter.7z",
+    "hash": "647365ef3d0a92886ed1511d5ee6b6666af271c1a9ed1b0f57a5ca56b3c58d4e",
     "bin": "DatabaseConverter.exe",
     "checkver": "github",
     "autoupdate": {
