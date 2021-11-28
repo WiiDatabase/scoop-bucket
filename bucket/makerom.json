@@ -1,12 +1,12 @@
 {
-    "version": "0.17",
+    "version": "0.18",
     "description": "Creates CTR cxi/cfa/cci/cia files",
     "homepage": "https://github.com/3DSGuy/Project_CTR",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/3DSGuy/Project_CTR/releases/download/makerom-v0.17/makerom-v0.17-win_x86_64.zip",
-            "hash": "6246ad808c372e47a0b17eed4a1e9a2b4bdae6a22a1ec9d79942fb820b25bd77"
+            "url": "https://github.com/3DSGuy/Project_CTR/releases/download/makerom-v0.18/makerom-v0.18-win_x86_64.zip",
+            "hash": "0b6c219f1aa781792f41d1845ace4f74dd7e7a5b58ca6b6c7929f6f06d162feb"
         }
     },
     "bin": "makerom.exe",
