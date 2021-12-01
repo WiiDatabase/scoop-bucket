@@ -1,0 +1,14 @@
+{
+    "version": "1.1.6",
+    "description": "A .Net Core port of Sharpii for use on other OS's",
+    "homepage": "https://github.com/TheShadowEevee/Sharpii-NetCore",
+    "license": " GPL-3.0-only",
+    "notes": "It is not neccessary to install Sharpii since it's automatically shimmed",
+    "url": "https://github.com/TheShadowEevee/Sharpii-NetCore/releases/download/1.1.6/Sharpii-Net-Core-1.1.6-Windows.7z",
+    "hash": "b6dea1c5130024049a4f6d78099712a6455e0e89c831b1061571d48b84908132",
+    "bin": "Sharpii.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/TheShadowEevee/Sharpii-NetCore/releases/download/$version/Sharpii-Net-Core-$version-Windows.7z"
+    }
+}
