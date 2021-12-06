@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@main
     - name: Pull Request Validator
-      uses: Ash258/Scoop-GithubActions@stable-win
+      uses: shovel-org/GithubActions@main
       env:
         GITH_EMAIL: brawl98@outlook.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
