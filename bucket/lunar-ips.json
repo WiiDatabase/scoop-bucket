@@ -5,13 +5,26 @@
     "license": "Freeware",
     "url": "http://fusoya.eludevisibility.org/lips/download/lips103.zip",
     "hash": "508c65db48024cf9006bf7b3ed95665de3bcd83bfef79da623b7ad5224784a83",
-    "bin": "Lunar IPS.exe",
-    "shortcuts": [
-        [
-            "Lunar IPS.exe",
-            "Lunar IPS"
-        ]
-    ],
+    "architecture": {
+        "64bit": {
+            "bin": "x64/Lunar IPS.exe",
+            "shortcuts": [
+                [
+                    "x64/Lunar IPS.exe",
+                    "Lunar IPS"
+                ]
+            ]
+        },
+        "32bit": {
+            "bin": "Lunar IPS.exe",
+            "shortcuts": [
+                [
+                    "Lunar IPS.exe",
+                    "Lunar IPS"
+                ]
+            ]
+        }
+    },
     "checkver": "Version: ([\\d\\.]+)",
     "autoupdate": {
         "url": "http://fusoya.eludevisibility.org/lips/download/lips$cleanVersion.zip"
