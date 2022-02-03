@@ -1,10 +1,10 @@
 {
-    "version": "1.02",
+    "version": "1.03",
     "description": "Lunar IPS (LIPS) is intended as an easy to use, lightweight IPS patch utility for windows.",
     "homepage": "http://fusoya.eludevisibility.org/lips/index.html",
     "license": "Freeware",
-    "url": "http://fusoya.eludevisibility.org/lips/download/lips102.zip",
-    "hash": "585c0c3b876c0711121b7d010c26894c860086aa2612e0bd205bf41c168e586b",
+    "url": "http://fusoya.eludevisibility.org/lips/download/lips103.zip",
+    "hash": "508c65db48024cf9006bf7b3ed95665de3bcd83bfef79da623b7ad5224784a83",
     "bin": "Lunar IPS.exe",
     "shortcuts": [
         [
