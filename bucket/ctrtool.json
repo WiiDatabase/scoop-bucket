@@ -1,16 +1,16 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Manipulate 3DS CIA files",
     "homepage": "https://github.com/3DSGuy/Project_CTR",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/3DSGuy/Project_CTR/releases/download/ctrtool-v1.0.2/ctrtool-v1.0.2-win_x64.zip",
-            "hash": "965664f91752e1a9e723fc40493e1a3de606b832281fba57b804d13dd436da76"
+            "url": "https://github.com/3DSGuy/Project_CTR/releases/download/ctrtool-v1.0.3/ctrtool-v1.0.3-win_x64.zip",
+            "hash": "e265ff88e69af085a18e492a39a6af76356b1bdc37bd0607f6e0cbd018355497"
         },
         "32bit": {
-            "url": "https://github.com/3DSGuy/Project_CTR/releases/download/ctrtool-v1.0.2/ctrtool-v1.0.2-win_x86.zip",
-            "hash": "2cd119af0ca00df93dfde13cf4d03e3d1501143bce34cb6af8df6556cc52e1e9"
+            "url": "https://github.com/3DSGuy/Project_CTR/releases/download/ctrtool-v1.0.3/ctrtool-v1.0.3-win_x86.zip",
+            "hash": "bdcf17bd7f6125be110b27ea81f0c6bf048844aa6268590204afd8e798c34ea1"
         }
     },
     "bin": "ctrtool.exe",
