@@ -1,10 +1,10 @@
 {
-    "version": "2.1.0",
+    "version": "2.0.3",
     "description": "From Miku Miku Library: A program that allows you to unpack or repack .farc files.",
     "homepage": "https://github.com/blueskythlikesclouds/MikuMikuLibrary",
     "license": "MIT",
-    "url": "https://github.com/blueskythlikesclouds/MikuMikuLibrary/releases/download/v2.1.0/FarcPack.7z",
-    "hash": "270df98818a4f2b87e9130617eb60da7b48cc7113ac58f7a17f1b05f08b73f6f",
+    "url": "https://github.com/blueskythlikesclouds/MikuMikuLibrary/releases/download/v2.0.3/FarcPack.7z",
+    "hash": "e92c120670c36a508ec4687519266ab9859170463bdf5f21c91edb41b7c0157a",
     "bin": "FarcPack.exe",
     "checkver": "github",
     "autoupdate": {
