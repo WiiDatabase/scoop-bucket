@@ -1,10 +1,10 @@
 {
-    "version": "1.8.3",
+    "version": "1.9",
     "description": "This shell extension adds a few nice features to file browsers for managing video game ROM and disc images.",
     "homepage": "https://github.com/GerbilSoft/rom-properties",
     "license": "GPL-2.0-only",
-    "url": "https://github.com/GerbilSoft/rom-properties/releases/download/v1.8.3/rom-properties_1.8.3-windows.zip",
-    "hash": "19dc3ceccc77c913f10dfd8ec5084cfd1c0b83e9a1f62c603232300b154d15b1",
+    "url": "https://github.com/GerbilSoft/rom-properties/releases/download/v1.9/rom-properties_1.9-windows.zip",
+    "hash": "f8a788700034b52bf007f58eec595e49892452366e72cf8ded68d8f9cb9dabdd",
     "bin": [
         "rpcli.exe",
         "rp-config.exe"
