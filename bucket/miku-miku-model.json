@@ -1,10 +1,10 @@
 {
-    "version": "2.1.0",
+    "version": "2.2.0",
     "description": "File editor for Hatsune Miku: Project DIVA games.",
     "homepage": "https://github.com/blueskythlikesclouds/MikuMikuLibrary",
     "license": "MIT",
-    "url": "https://github.com/blueskythlikesclouds/MikuMikuLibrary/releases/download/v2.1.0/MikuMikuModel.7z",
-    "hash": "fce9978b490ed4a44e057ec54db15ee4f43efb808553ac31009b8b40c208b59e",
+    "url": "https://github.com/blueskythlikesclouds/MikuMikuLibrary/releases/download/v2.2.0/MikuMikuModel.7z",
+    "hash": "bb5f005eb18b7e2d5c72455e4c17a83fce52335291f8376b1c3c1389308f3492",
     "bin": "MikuMikuModel.exe",
     "shortcuts": [
         [
