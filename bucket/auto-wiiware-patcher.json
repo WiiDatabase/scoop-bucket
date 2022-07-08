@@ -1,10 +1,10 @@
 {
-    "version": "2.2.1",
+    "version": "2.2.2",
     "description": "WiiWare patching for Wiimmfi made easy.",
     "homepage": "https://github.com/RiiConnect24/WiiWare-Patcher",
     "license": "AGPL-3.0-only",
-    "url": "https://github.com/RiiConnect24/WiiWare-Patcher/releases/download/v2.2.1/WiiWarePatcher.bat",
-    "hash": "60a6aede59de2a7e931226f17a51b94f8f127bd79b5537c40e166b47eb33a5ab",
+    "url": "https://github.com/RiiConnect24/WiiWare-Patcher/releases/download/v2.2.2/WiiWarePatcher.bat",
+    "hash": "a99c40f1fae6e3e66250761079a59288d602cf123be94ab7281ed3bf28a6d137",
     "bin": "WiiWarePatcher.bat",
     "shortcuts": [
         [
