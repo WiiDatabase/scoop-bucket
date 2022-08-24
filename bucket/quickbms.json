@@ -1,10 +1,10 @@
 {
-    "version": "0.11",
+    "version": "0.12",
     "description": "Files extractor and reimporter, archives and file formats parser, advanced tool for reverse engineers and power users, and much more.",
     "homepage": "https://aluigi.altervista.org/quickbms.htm",
     "license": "GPL-2.0-only",
     "url": "https://aluigi.altervista.org/papers/quickbms.zip",
-    "hash": "f1836b4f470a636e5a3e9e8f703cbd0fdce8a7e158637c0b1c782ca678949dd7",
+    "hash": "b9d4f9efb55692994cd42a491cfea11f86e3375a618b9bd771583ce40ddb3828",
     "bin": [
         "quickbms.exe",
         "quickbms_4gb_files.exe"
