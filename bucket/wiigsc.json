@@ -19,9 +19,5 @@
             "WiiGSC"
         ]
     ],
-    "persist": "Shared",
-    "checkver": "/download\\.html\\?link=WiiGSC-([\\d.a-z]+)\\.zip",
-    "autoupdate": {
-        "url": "http://www.tepetaklak.com/data/WiiGSC-$version.zip"
-    }
+    "persist": "Shared"
 }
