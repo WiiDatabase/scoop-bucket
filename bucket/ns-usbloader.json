@@ -1,5 +1,5 @@
 {
-    "version": "5.2",
+    "version": "6.0",
     "description": "A PC-side installer for Adubbz/TinFoil (v0.2.1), Huntereb/Awoo-Installer (USB and Network supported) and XorTroll/GoldLeaf (USB) NSP installer.",
     "homepage": "https://github.com/developersu/ns-usbloader",
     "license": "GPL-3.0-only",
@@ -7,11 +7,11 @@
         "JRE": "java/adopt8-hotspot-jre"
     },
     "url": [
-        "https://github.com/developersu/ns-usbloader/releases/download/v5.2/ns-usbloader-5.2.jar",
+        "https://github.com/developersu/ns-usbloader/releases/download/v6.0/ns-usbloader-6.0.jar",
         "https://raw.githubusercontent.com/developersu/ns-usbloader/master/appicon.ico"
     ],
     "hash": [
-        "261A99D583E516DFB19EC6FA2B1595B8287C47C00FE3DF9A948C3BBC29D47F1A",
+        "270625bd94148ecbb5912ab6535abc6a10c719a4dac1fefad12643cd578b9f03",
         "86c8cd59211d27d1ca46ca224022d40e5249474bd5419675e5400419922bf2cc"
     ],
     "pre_install": [
