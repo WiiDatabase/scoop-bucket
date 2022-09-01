@@ -1,11 +1,11 @@
 {
-    "version": "5.3",
+    "version": "5.3.1",
     "description": "Stream switch games to your PC via USB or network",
     "homepage": "https://github.com/exelix11/SysDVR",
     "license": "GPL-2.0-only",
     "depends": "dotnet-sdk",
-    "url": "https://github.com/exelix11/SysDVR/releases/download/v5.3/SysDVR-Client.7z",
-    "hash": "a8406c467806d8c8603d5abb351736a8022a59dfa7357c75c1893050d74a7590",
+    "url": "https://github.com/exelix11/SysDVR/releases/download/v5.3.1/SysDVR-Client.7z",
+    "hash": "433b0770efa725f9b6a5abd50bc3d6fc3fbb9f82263579225a4939fa9889abac",
     "bin": "SysDVR-Client.exe",
     "shortcuts": [
         [
