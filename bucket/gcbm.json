@@ -1,13 +1,13 @@
 {
-    "version": "2.6.0.11",
+    "version": "2.6.1.0",
     "description": "GameCube Backup Manager - a software to convert ISO files to Nintendont format.",
     "homepage": "https://github.com/AxionDrak/GameCube-Backup-Manager",
     "license": "MIT",
-    "changelog": "https://github.com/AxionDrak/GameCube-Backup-Manager/releases/tag/2.6.0.11",
+    "changelog": "https://github.com/AxionDrak/GameCube-Backup-Manager/releases/tag/2.6.1.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AxionDrak/GameCube-Backup-Manager/releases/download/2.6.0.11/gcbm.zip",
-            "hash": "3b957fa2cc687ec00eb7139375d37bc8c1edf489b5853fd76da2b4c05c385fd3"
+            "url": "https://github.com/AxionDrak/GameCube-Backup-Manager/releases/download/2.6.1.0/gcbm.zip",
+            "hash": "4615d2c4ee4b7cbd169994f8af0f55ffd30d6131541cef0ba80b07f33706f7a0"
         }
     },
     "extract_dir": "gcbm",
