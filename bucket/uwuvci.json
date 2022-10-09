@@ -1,18 +1,10 @@
 {
-    "version": "3.99.2",
+    "version": "3.99.9",
     "description": "Inject games into various Wii U VCs.",
     "homepage": "https://github.com/stuff-by-3-random-dudes/UWUVCI-AIO-WPF",
     "license": "GPL-3.0-only",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/stuff-by-3-random-dudes/UWUVCI-AIO-WPF/releases/download/v3.99.2/UWUVCI_INSTALLER.exe",
-            "hash": "fe67072833f6e7eeec3d35b19f72b6e2c90a3fcdb3a58afe84be685930c479be"
-        },
-        "32bit": {
-            "url": "https://github.com/stuff-by-3-random-dudes/UWUVCI-AIO-WPF/releases/download/v3.99.2/UWUVCI_INSTALLER_x86.exe",
-            "hash": "5699d293900e9e4f5bdfdaa220a332ff30eb2f9d673fd7723f45e76861563072"
-        }
-    },
+    "url": "https://github.com/stuff-by-3-random-dudes/UWUVCI-AIO-WPF/releases/download/v3.99.9/UWUVCI_INSTALLER.exe",
+    "hash": "c4b2b568805352e741351cbbcb770e00a6c10a48f215db4e5978c69c7b815da6",
     "innosetup": true,
     "bin": [
         "UWUVCI AIO WPF.exe",
@@ -35,13 +27,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/stuff-by-3-random-dudes/UWUVCI-AIO-WPF/releases/download/v$version/UWUVCI_INSTALLER.exe"
-            },
-            "32bit": {
-                "url": "https://github.com/stuff-by-3-random-dudes/UWUVCI-AIO-WPF/releases/download/v$version/UWUVCI_INSTALLER_x86.exe"
-            }
-        }
+        "url": "https://github.com/stuff-by-3-random-dudes/UWUVCI-AIO-WPF/releases/download/v$version/UWUVCI_INSTALLER.exe"
     }
 }
