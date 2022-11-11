@@ -1,19 +1,19 @@
 {
-    "version": "2.29b.r8696",
+    "version": "2.30a.r8708",
     "description": "Wiimms SZS Toolset is a set of command line tools to manipulate files of Mario Kart Wii.",
     "homepage": "https://szs.wiimm.de/",
     "license": "GPL-2.0-only",
     "notes": "Use '$dir\\sendto-install.bat' to install the 'send to' menu entries.",
     "architecture": {
         "64bit": {
-            "url": "https://szs.wiimm.de/download/szs-v2.29b-r8696-cygwin64.zip",
-            "hash": "32725d66a137f18a34d67fb74c5c8a2a1c260bc0480570aea4f596634f0a7161",
-            "extract_dir": "szs-v2.29b-r8696-cygwin64\\bin"
+            "url": "https://szs.wiimm.de/download/szs-v2.30a-r8708-cygwin64.zip",
+            "hash": "03ffb8432fd0a48f01a722e0884957dcda306428fe8fa5115deb02e60b3a9eec",
+            "extract_dir": "szs-v2.30a-r8708-cygwin64\\bin"
         },
         "32bit": {
-            "url": "https://szs.wiimm.de/download/szs-v2.29b-r8696-cygwin32.zip",
-            "hash": "8ab2f2bf9ed92a425512b0197183770f593816898797091331a47de6341461d0",
-            "extract_dir": "szs-v2.29b-r8696-cygwin32\\bin"
+            "url": "https://szs.wiimm.de/download/szs-v2.30a-r8708-cygwin32.zip",
+            "hash": "a2f2e2b51a4c94a33bae23da99e558241133a2526d4e7396d54eff0db6d48103",
+            "extract_dir": "szs-v2.30a-r8708-cygwin32\\bin"
         }
     },
     "bin": [
