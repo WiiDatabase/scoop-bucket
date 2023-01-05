@@ -1,10 +1,10 @@
 {
-    "version": "2.1",
+    "version": "2.0",
     "description": "Input redirection client for the 3DS using QtGamepad.",
     "homepage": "https://github.com/TuxSH/InputRedirectionClient-Qt",
     "license": "MIT",
-    "url": "https://github.com/TuxSH/InputRedirectionClient-Qt/releases/download/v2.1/InputRedirectionClient-Qt_v2_1.zip",
-    "hash": "4c3b8fbcbdbcd0c53b3e3b701fb2ab20ba7ebe719a2077c986d280a4bc763724",
+    "url": "https://github.com/TuxSH/InputRedirectionClient-Qt/releases/download/v2.0/InputRedirectionClient-Qt_v2_0.zip",
+    "hash": "a10d33346928a60cc83cc403a83b6896c46b941c478f32f39e2eea51462d0b2c",
     "bin": "InputRedirectionClient-Qt.exe",
     "shortcuts": [
         [
